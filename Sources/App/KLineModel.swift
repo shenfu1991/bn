@@ -48,3 +48,12 @@ struct NumModel: Content {
     var num: Int?
     var ev: Double?
 }
+
+
+struct ResModel: Content {
+    var mid: [String]?
+    var up: [String]?
+    var down: [String]?
+    var sDown: [String]?
+    var sUp: [String]?
+}
